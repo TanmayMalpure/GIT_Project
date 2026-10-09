@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A collaborative team task manager built with HTML, CSS and JavaScript.">
+  <title>Team Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1>Team Task Manager</h1>
+    <p>Plan your work. Track your progress. Achieve more.</p>
+  </header>
+
+  <main class="container">
+    <section class="task-card">
+      <h2>Add a New Task</h2>
+
+      <form id="taskForm">
+        <label for="taskInput">Task description</label>
+        <div class="task-input-group">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter your task..."
+            maxlength="120"
+            required
+          >
+          <button type="submit">Add Task</button>
+        </div>
+      </form>
+
+      <div class="filters" aria-label="Filter tasks">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="pending">Pending</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <div class="task-summary">
+        <p>Total: <span id="totalTasks">0</span></p>
+        <p>Pending: <span id="pendingTasks">0</span></p>
+        <p>Completed: <span id="completedTasks">0</span></p>
+      </div>
+
+      <ul id="taskList" aria-live="polite"></ul>
+      <p id="emptyMessage">No tasks yet. Add your first task!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built collaboratively by Team Task Manager</p>
+  </footer>
+</body>
+</html>
