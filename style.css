@@ -7,12 +7,12 @@
 body {
   font-family: Arial, sans-serif;
   background: #f3f6fb;
-  color: #1f2937;
+  color: #061b38;
   min-height: 100vh;
 }
 
 .header {
-  background: #1e3a8a;
+  background: #6380cf;
   color: white;
   text-align: center;
   padding: 35px 20px;
@@ -68,12 +68,12 @@ button {
 }
 
 .task-input-group button {
-  background: #2563eb;
+  background: #1c2f5a;
   color: white;
 }
 
 .task-input-group button:hover {
-  background: #1d4ed8;
+  background: #02040a;
 }
 
 .filters {
