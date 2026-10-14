@@ -1,0 +1,41 @@
+[33mcommit ea91f93ca6005512129839c22ba00cffafdb9d4d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 5865be9 5b6ea34
+Author: karanydv01 <rx100yadavji@gmail.com>
+Date:   Fri Oct 9 15:48:47 2026 +0530
+
+    Merge pull request #2 from TanmayMalpure/sub-branch2
+    
+    script file added
+
+[33mcommit 5865be9cfbf4818134efdacd713e8af61be0b912[m
+Merge: a462271 5b66938
+Author: TanmayMalpure <120240794+TanmayMalpure@users.noreply.github.com>
+Date:   Fri Oct 9 15:47:38 2026 +0530
+
+    Merge pull request #1 from TanmayMalpure/sub-branch1
+    
+    css file added
+
+[33mcommit 5b6ea3405186fbdd453a102fa6fbb8627a7fd8a9[m
+Author: karan yadav <rx100yadavji@gmail.com>
+Date:   Fri Oct 9 15:40:48 2026 +0530
+
+    script file added
+
+[33mcommit 5b6693830330d5948a572d9e839fcd05c3a38bbb[m
+Author: rishi <rishi.yadav12004@gmailcom>
+Date:   Fri Oct 9 15:34:17 2026 +0530
+
+    css file added
+
+[33mcommit a4622718daab3b78357b15ac328e40b4103e106b[m
+Author: Tanmay Malpure <tanmaymalpure9@gmail.com>
+Date:   Fri Oct 9 15:27:44 2026 +0530
+
+    HTML file added
+
+[33mcommit 7eac8585c5cb0684876587384912c6a8c4cb404d[m[33m ([m[1;31morigin/sub-branch3[m[33m)[m
+Author: Tanmay Malpure <tanmaymalpure9@gmail.com>
+Date:   Fri Oct 9 14:57:47 2026 +0530
+
+    first commit
